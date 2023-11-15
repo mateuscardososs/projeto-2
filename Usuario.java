@@ -163,4 +163,12 @@ public class Usuario {
     public int getPontosVida() {
         return 0;
     }
+
+    public String getManaMaxima() {
+        return null;
+    }
+
+    public int getIndex() {
+        return 0;
+    }
 }
