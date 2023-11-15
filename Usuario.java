@@ -111,8 +111,9 @@ public class Usuario {
                 ", nivel=" + nivel +
                 ", decks=" + Arrays.toString(decks) +
                 ", pontos=" + pontos +
-                '}'';
-    }
+                '}';
+    
+    } 
 
     public void adicionarCartaMao(Carta carta) {
     }
@@ -171,4 +172,3 @@ public class Usuario {
     public int getIndex() {
         return 0;
     }
-}

@@ -1,6 +1,6 @@
 public class PasseDeBatalha {
     public static void main(String[] args) {
-        
+       
         PasseComum passeComum = new PasseComum();
         passeComum.registrarVitoria();
         passeComum.entregarPremiacao();
@@ -13,6 +13,4 @@ public class PasseDeBatalha {
         passePremium.entregarPremiacao();
         passePremium.resetarPasse();
     }
-}
-
 }
