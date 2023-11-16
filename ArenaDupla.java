@@ -44,8 +44,7 @@ public class ArenaDupla extends Arena {
             for (int i = 0; i < quantidade; i++) {
                 int deckSize = jogador.getDecks().length;
                 if (deckSize > 0) {
-                    int randomIndex = rand.nextInt(deckSize);
-                    int carta = jogador.getDecks().length;
+                    Carta carta = jogador.getDecks().length;
                     jogador.adicionarCartaMao(carta);
                     jogador.getDecks();
                 }
